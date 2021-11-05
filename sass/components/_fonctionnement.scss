@@ -1,0 +1,44 @@
+.fonct {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 5% 5% 0% 5%;
+        &__block {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            margin-left: 2%;
+            margin-right: 2%;
+            padding: 1% 0% 1% 2%;
+            column-gap: 5%;
+            font-size: 1rem;
+            border-radius: 1rem;
+            background-color: #f6f6f6;
+            margin-bottom: 5%;
+        }
+            &__block:hover {
+                background-color: #f5edff;
+                color: #9356dc;
+                box-shadow: 0px 10px 30px 2px rgba(0,0,0,0.10);
+            }
+                &__span {
+                    display: flex;
+                    padding: 2% 3% 2% 3%;
+                    margin-left: -4%;
+                    margin-right: 5%;
+                    border-radius: 10rem;
+                    color: #fff;
+                    background-color: #9356dc;
+                }
+        }
+.fonct i {
+    color: #000;
+    padding-right: 3%;
+}
+
+
+

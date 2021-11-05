@@ -1,0 +1,31 @@
+html {
+    width: 100%;
+    font-size: 5vw;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.fa-heart {
+    color: #f6f6f6;
+    text-shadow: 0 0 2px #000;
+}
+.fa-heart:hover {
+	color: #9356dc;
+}
+.titre {
+    padding: 2% 0 0 10%;
+}
+#invisible {
+    opacity: 0;
+}
+#titre_header-page {
+    margin: 0;
+}
