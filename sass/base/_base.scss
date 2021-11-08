@@ -29,3 +29,14 @@ body {
 #titre_header-page {
     margin: 0;
 }
+input {
+    background-color: #EAEAEA;
+    border-width: 0px;
+    color: black;
+}
+input:focus-visible {
+    outline: none;
+}
+
+$primaire: #9356dc;
+$secondaire: #f6f6f6;

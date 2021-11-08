@@ -37,6 +37,16 @@ body {
   margin: 0;
 }
 
+input {
+  background-color: #EAEAEA;
+  border-width: 0px;
+  color: black;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
 h1 {
   font-family: 'Shrikhand', cursive;
 }
@@ -231,7 +241,7 @@ footer i {
           justify-content: center;
   -webkit-column-gap: 1%;
           column-gap: 1%;
-  padding: 3%;
+  padding: 3% 7% 3% 32%;
   font-size: 1rem;
   background-color: #eaeaea;
 }
@@ -550,7 +560,7 @@ article .confirmation {
 }
 
 article .confirmation div.ajout {
-  background-color: green;
+  background-color: #99e2d0;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -616,6 +626,7 @@ article .menudesc, article .push__left, article div.ajout i {
       -ms-flex-align: end;
           align-items: flex-end;
   margin-right: 5%;
+  margin-left: 2%;
 }
 
 .menu__button {
@@ -654,11 +665,11 @@ article .menudesc, article .push__left, article div.ajout i {
 }
 
 .menudesc h3 {
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .menudesc h4 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 @-webkit-keyframes container {
@@ -1073,10 +1084,10 @@ article .menudesc, article .push__left, article div.ajout i {
     font-size: 35px;
   }
   .menudesc h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .menudesc h4 {
-    font-size: 15px;
+    font-size: 13px;
   }
   .preloader {
     left: 50%;
@@ -1116,7 +1127,6 @@ article .menudesc, article .push__left, article div.ajout i {
   .preview__grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     -webkit-column-gap: 2%;
             column-gap: 2%;
@@ -1155,9 +1165,6 @@ article .menudesc, article .push__left, article div.ajout i {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
   }
   .footer__items {
     width: 12%;
